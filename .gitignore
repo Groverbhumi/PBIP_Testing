@@ -1,2 +1,14 @@
-**/.pbi/localSettings.json
-**/.pbi/cache.abf
+# Power BI cache and local files
+.pbi/
+*.pbix
+
+# Local user settings (credentials, personal layout)
+.localSettings.json
+*.pbids
+
+# Windows thumbnails
+Thumbs.db
+desktop.ini
+
+# macOS metadata
+.DS_Store
