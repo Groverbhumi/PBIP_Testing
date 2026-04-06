@@ -1,0 +1,7 @@
+role 'Health Role'
+	modelPermission: read
+
+	tablePermission InsuranceData = [PolicyType] == "Health"
+
+	annotation PBI_Id = 5d4ae563640d43b4a20fb561204b7fff
+

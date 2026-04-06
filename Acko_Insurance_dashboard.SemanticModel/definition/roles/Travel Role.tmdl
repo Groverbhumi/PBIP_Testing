@@ -1,0 +1,7 @@
+role 'Travel Role'
+	modelPermission: read
+
+	tablePermission InsuranceData = [PolicyType] == "Travel"
+
+	annotation PBI_Id = 75ebcb2ce36943e2a3025216dd2fb602
+
