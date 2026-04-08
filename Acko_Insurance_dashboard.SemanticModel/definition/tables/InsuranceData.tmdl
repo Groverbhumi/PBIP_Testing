@@ -1,6 +1,9 @@
 table InsuranceData
 	lineageTag: 0cc201e6-b7ea-4968-b9ab-7c8650d0c936
 
+	measure Test = "This is a test measure"
+		lineageTag: c1048be0-a8a5-48f3-93a0-abdcbbfc14cf
+
 	column PolicyNumber
 		dataType: string
 		lineageTag: 365e3745-3372-42e7-8970-0f32757287bc
