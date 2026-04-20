@@ -4,8 +4,8 @@ table InsuranceData
 	measure Test = "This is a test measure 2.0"
 		lineageTag: c1048be0-a8a5-48f3-93a0-abdcbbfc14cf
 
-	measure Bhumika = "Testing"
-		lineageTag: c3a8ecfc-a7d6-4586-a1fa-d1898e1ac568
+	measure PR = "PR request Testing"
+		lineageTag: 65fc898e-6366-4d05-97aa-b6a856f57846
 
 	column PolicyNumber
 		dataType: string
